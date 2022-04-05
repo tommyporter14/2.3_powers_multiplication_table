@@ -6,7 +6,7 @@ public class powers_multiplication_table {//Main method stuff auto generated
 
 	int userInput;//variables
 	int a;
-    int b;
+	int b;
 	char decision;
 
 	Scanner scnr = new Scanner(System.in);//assigning scnr as user input
