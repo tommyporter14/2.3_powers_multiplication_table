@@ -34,17 +34,17 @@ public class powers_multiplication_table {//Main method stuff auto generated
 				  }
 			}
 
-			System.out.println("Multipication Table:");//name for table
-
-			for (a = 1; a <= userInput; ++a) //multiplication table, formatting does not play well with large numbers EX: 100
-			{
-		        for (b = 1; b <= userInput; ++b) //for loop incrementing from 1 to user number
-		        {
-		            System.out.printf("%4d", (a*b));//output
-		        }
+			 System.out.println("Multipication Table:");//name for table
+			
+			 for (a = 1; a <= userInput; ++a) //multiplication table, formatting does not play well with large numbers EX: 100
+			 {
+				for (b = 1; b <= userInput; ++b) //for loop incrementing from 1 to user number
+				{
+					System.out.printf("%4d", (a*b));//output
+				}
 
 		        System.out.println();//outputting on new lines
-		    }
+			 }
 
 				System.out.println("Would you like to conintue (Y/N)?");//asks to continue
 				decision = scnr.next().charAt(0);//gets decision
